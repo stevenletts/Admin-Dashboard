@@ -155,7 +155,7 @@ li {
 /* main content area */
 
 main {
-    background-color: rgb(26, 148, 150);
+    background-color:rgb(178, 147, 255);
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr;
@@ -225,6 +225,7 @@ main {
     padding: 2rem;
     border-radius: 2rem;
     box-shadow: darkgray;
+    overflow: hidden;
 }
 
 h5 {
