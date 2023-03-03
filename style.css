@@ -206,3 +206,27 @@ main {
     margin: 10px;
 }
 
+.card-side{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .1fr 1fr .1fr 1fr;
+    padding-left: 5%;
+}
+
+.annoucement-card{
+    display: grid;
+    grid-template-rows: 1 fr 1 fr 1fr;
+
+}
+.annoucements{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: darkgray;
+}
+
+h5 {
+    margin: 0%;
+}
